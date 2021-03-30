@@ -81,7 +81,6 @@ User.register({username: req.body.username}, req.body.password, function(err, us
     });
   }
 });
-
 });
 
 app.post("/login", function(req, res){
@@ -100,7 +99,6 @@ req.login(user, function(err){
   });
 }
 });
-
 
 });
 
